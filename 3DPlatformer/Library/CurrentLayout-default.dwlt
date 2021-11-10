@@ -48,7 +48,7 @@ MonoBehaviour:
   m_MinSize: {x: 679, y: 492}
   m_MaxSize: {x: 14002, y: 14042}
   vertical: 0
-  controlID: 15
+  controlID: 79
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -68,8 +68,8 @@ MonoBehaviour:
     y: 0
     width: 454
     height: 947
-  m_MinSize: {x: 276, y: 71}
-  m_MaxSize: {x: 4001, y: 4021}
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 13}
   m_Panes:
   - {fileID: 13}
@@ -226,7 +226,7 @@ MonoBehaviour:
   m_MinSize: {x: 403, y: 492}
   m_MaxSize: {x: 10001, y: 14042}
   vertical: 1
-  controlID: 16
+  controlID: 104
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -251,7 +251,7 @@ MonoBehaviour:
   m_MinSize: {x: 403, y: 221}
   m_MaxSize: {x: 8003, y: 4021}
   vertical: 0
-  controlID: 17
+  controlID: 105
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -271,8 +271,8 @@ MonoBehaviour:
     y: 0
     width: 1103
     height: 561
-  m_MinSize: {x: 202, y: 221}
-  m_MaxSize: {x: 4002, y: 4021}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 15}
   m_Panes:
   - {fileID: 15}
@@ -317,22 +317,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scenes
+    - Assets
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Scenes
+  - Assets
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: G:\Elam\GamesB\3DPlatformer
+  m_LastProjectPath: F:\3DPlatformer\3DPlatformer
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: ee490000
-    m_LastClickedID: 18926
-    m_ExpandedIDs: 00000000ec49000000ca9a3b
+    m_SelectedIDs: 763c0000
+    m_LastClickedID: 15478
+    m_ExpandedIDs: 00000000763c000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -360,7 +360,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 
+    m_ExpandedIDs: 00000000763c0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -481,9 +481,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: ee490000
+      m_SelectedIDs: 863c0000
       m_LastClickedID: 0
-      m_ExpandedIDs: 88faffff
+      m_ExpandedIDs: 54fbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -545,7 +545,7 @@ MonoBehaviour:
   m_Position:
     m_Target: {x: 0, y: 0, z: 0}
     speed: 2
-    m_Value: {x: 3.0451472, y: 2.7581744, z: -0.93802226}
+    m_Value: {x: 0, y: 0, z: 0}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -594,11 +594,11 @@ MonoBehaviour:
   m_Rotation:
     m_Target: {x: -0.08717229, y: 0.89959055, z: -0.21045254, w: -0.3726226}
     speed: 2
-    m_Value: {x: -0.066519916, y: 0.7700034, z: -0.0813897, w: -0.6293216}
+    m_Value: {x: -0.08717229, y: 0.89959055, z: -0.21045254, w: -0.3726226}
   m_Size:
     m_Target: 10
     speed: 2
-    m_Value: 1.4660254
+    m_Value: 10
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -671,8 +671,8 @@ MonoBehaviour:
     vZoomLockedByDefault: 0
     m_HBaseRangeMin: -550.5
     m_HBaseRangeMax: 550.5
-    m_VBaseRangeMin: -270
-    m_VBaseRangeMax: 270
+    m_VBaseRangeMin: -259.5
+    m_VBaseRangeMax: 259.5
     m_HAllowExceedBaseRangeMin: 1
     m_HAllowExceedBaseRangeMax: 1
     m_VAllowExceedBaseRangeMin: 1
@@ -689,11 +689,11 @@ MonoBehaviour:
     m_DrawArea:
       serializedVersion: 2
       x: 0
-      y: 0
+      y: 21
       width: 1101
-      height: 540
+      height: 519
     m_Scale: {x: 1, y: 1}
-    m_Translation: {x: 550.5, y: 270}
+    m_Translation: {x: 550.5, y: 259.5}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
@@ -701,9 +701,9 @@ MonoBehaviour:
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
       x: -550.5
-      y: -270
+      y: -259.5
       width: 1101
-      height: 540
+      height: 519
     m_MinimalGUI: 1
   m_defaultScale: 1
   m_LastWindowPixelSize: {x: 1101, y: 540}
